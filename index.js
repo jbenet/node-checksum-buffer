@@ -17,7 +17,7 @@ function CkBuffer(buf, func, length) {
     var sum = this.checksum()
     var dec = multihashing.multihash.decode(sum)
     this.mhparams = {
-      code: dec.name,
+      code: dec.code,
       length: dec.length,
     }
   } else {
