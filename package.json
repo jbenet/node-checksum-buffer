@@ -1,0 +1,29 @@
+{
+  "name": "checksum-buffer",
+  "version": "0.1.0",
+  "description": "a buffer with a checksum + data",
+  "main": "index.js",
+  "dependencies": {
+    "buffer-equal": "^0.0.1",
+    "multihashing": "^0.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node try.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jbenet/node-checksum-buffer.git"
+  },
+  "keywords": [
+    "buffer",
+    "checksum",
+    "multihash"
+  ],
+  "author": "Juan Benet <juan@benet.ai> (http://juan.benet.ai/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbenet/node-checksum-buffer/issues"
+  },
+  "homepage": "https://github.com/jbenet/node-checksum-buffer"
+}
